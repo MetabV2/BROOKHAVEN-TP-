@@ -210,7 +210,7 @@ ImageLabel_2.ScaleType = Enum.ScaleType.Tile
 
 -- Scripts:
 
-local function QXNC_fake_script() -- ImageButton.LocalScript 
+local function JJXG_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -218,8 +218,8 @@ local function QXNC_fake_script() -- ImageButton.LocalScript
 	end)
 	
 end
-coroutine.wrap(QXNC_fake_script)()
-local function UBORNT_fake_script() -- TextButton.METAB SCRIPT 
+coroutine.wrap(JJXG_fake_script)()
+local function NRVMJNF_fake_script() -- TextButton.METAB SCRIPT 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -243,7 +243,7 @@ local function UBORNT_fake_script() -- TextButton.METAB SCRIPT
 		
 			local pl = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart
 			local humanoid = game:GetService("Players").LocalPlayer.Character.Humanoid
-		local pl2 = game:GetService("Players").LocalPlayer.PlayerGui.METAB.ImageLabel.TextButton.TextBox.Text
+			local pl2 = game:GetService("CoreGui").METAB.ImageLabel.TextButton.TextBox.Text
 	
 			humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
 			wait(0.1)
@@ -257,8 +257,8 @@ local function UBORNT_fake_script() -- TextButton.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(UBORNT_fake_script)()
-local function ZPAPS_fake_script() -- TextButton.ANIME 
+coroutine.wrap(NRVMJNF_fake_script)()
+local function AEPZNXF_fake_script() -- TextButton.ANIME 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local btn = script.Parent
@@ -301,8 +301,8 @@ local function ZPAPS_fake_script() -- TextButton.ANIME
 		end
 	end)
 end
-coroutine.wrap(ZPAPS_fake_script)()
-local function VKUCX_fake_script() -- TextButton_2.ANIME 
+coroutine.wrap(AEPZNXF_fake_script)()
+local function CSFFG_fake_script() -- TextButton_2.ANIME 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	local btn = script.Parent
@@ -345,8 +345,8 @@ local function VKUCX_fake_script() -- TextButton_2.ANIME
 		end
 	end)
 end
-coroutine.wrap(VKUCX_fake_script)()
-local function QVSZTA_fake_script() -- TextButton_2.METAB SCRIPT 
+coroutine.wrap(CSFFG_fake_script)()
+local function RXOTMLR_fake_script() -- TextButton_2.METAB SCRIPT 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -356,7 +356,7 @@ local function QVSZTA_fake_script() -- TextButton_2.METAB SCRIPT
 	
 			local pl = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart
 			local humanoid = game:GetService("Players").LocalPlayer.Character.Humanoid
-			local pl2 = game:GetService("Players").LocalPlayer.PlayerGui.METAB.ImageLabel.TextButton.TextBox.Text
+			local pl2 = game:GetService("CoreGui").METAB.ImageLabel.TextButton.TextBox.Text
 	
 			humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
 			wait(0.1)
@@ -377,8 +377,8 @@ local function QVSZTA_fake_script() -- TextButton_2.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(QVSZTA_fake_script)()
-local function UBGORC_fake_script() -- TextButton_3.METAB SCRIPT 
+coroutine.wrap(RXOTMLR_fake_script)()
+local function NPNSWMN_fake_script() -- TextButton_3.METAB SCRIPT 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -388,7 +388,7 @@ local function UBGORC_fake_script() -- TextButton_3.METAB SCRIPT
 	
 			local pl = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart
 			local humanoid = game:GetService("Players").LocalPlayer.Character.Humanoid
-			local pl2 = game:GetService("Players").LocalPlayer.PlayerGui.METAB.ImageLabel.TextButton.TextBox.Text
+			local pl2 = game:GetService("CoreGui").METAB.ImageLabel.TextButton.TextBox.Text
 	
 			humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
 			wait(0.1)
@@ -409,8 +409,8 @@ local function UBGORC_fake_script() -- TextButton_3.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(UBGORC_fake_script)()
-local function PGKOS_fake_script() -- TextButton_3.ANIME 
+coroutine.wrap(NPNSWMN_fake_script)()
+local function FDFYC_fake_script() -- TextButton_3.ANIME 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	local btn = script.Parent
@@ -453,16 +453,16 @@ local function PGKOS_fake_script() -- TextButton_3.ANIME
 		end
 	end)
 end
-coroutine.wrap(PGKOS_fake_script)()
-local function OWEHKK_fake_script() -- CloseButton.LocalScript 
+coroutine.wrap(FDFYC_fake_script)()
+local function XIPXJTO_fake_script() -- CloseButton.LocalScript 
 	local script = Instance.new('LocalScript', CloseButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(OWEHKK_fake_script)()
-local function CFGJU_fake_script() -- CloseButton.ANIME 
+coroutine.wrap(XIPXJTO_fake_script)()
+local function UCIWRHJ_fake_script() -- CloseButton.ANIME 
 	local script = Instance.new('LocalScript', CloseButton)
 
 	local btn = script.Parent
@@ -505,8 +505,8 @@ local function CFGJU_fake_script() -- CloseButton.ANIME
 		end
 	end)
 end
-coroutine.wrap(CFGJU_fake_script)()
-local function BEVMV_fake_script() -- ImageLabel.LocalScript 
+coroutine.wrap(UCIWRHJ_fake_script)()
+local function IUUXLXO_fake_script() -- ImageLabel.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel)
 
 	while true do
@@ -524,8 +524,8 @@ local function BEVMV_fake_script() -- ImageLabel.LocalScript
 		wait(.7)
 	end
 end
-coroutine.wrap(BEVMV_fake_script)()
-local function DYCIKOW_fake_script() -- ImageLabel.LocalScript 
+coroutine.wrap(IUUXLXO_fake_script)()
+local function VUERTP_fake_script() -- ImageLabel.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel)
 
 	-- brought to you by Jesus Bin Laden
@@ -561,8 +561,8 @@ local function DYCIKOW_fake_script() -- ImageLabel.LocalScript
 	
 	update()
 end
-coroutine.wrap(DYCIKOW_fake_script)()
-local function PFXIP_fake_script() -- ImageLabel.LocalScript 
+coroutine.wrap(VUERTP_fake_script)()
+local function UNCP_fake_script() -- ImageLabel.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel)
 
 	
@@ -640,8 +640,8 @@ local function PFXIP_fake_script() -- ImageLabel.LocalScript
 	
 	
 end
-coroutine.wrap(PFXIP_fake_script)()
-local function HWRQK_fake_script() -- TextButton_4.ANIME 
+coroutine.wrap(UNCP_fake_script)()
+local function MJGZQE_fake_script() -- TextButton_4.ANIME 
 	local script = Instance.new('LocalScript', TextButton_4)
 
 	local btn = script.Parent
@@ -684,8 +684,8 @@ local function HWRQK_fake_script() -- TextButton_4.ANIME
 		end
 	end)
 end
-coroutine.wrap(HWRQK_fake_script)()
-local function JEWJRTX_fake_script() -- TextButton_4.METAB SCRIPT 
+coroutine.wrap(MJGZQE_fake_script)()
+local function MJAO_fake_script() -- TextButton_4.METAB SCRIPT 
 	local script = Instance.new('LocalScript', TextButton_4)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -695,7 +695,7 @@ local function JEWJRTX_fake_script() -- TextButton_4.METAB SCRIPT
 	
 			local pl = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart
 			local humanoid = game:GetService("Players").LocalPlayer.Character.Humanoid
-			local pl2 = game:GetService("Players").LocalPlayer.PlayerGui.METAB.ImageLabel.TextButton.TextBox.Text
+			local pl2 = game:GetService("CoreGui").METAB.ImageLabel.TextButton.TextBox.Text
 	
 			humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
 			wait(0.1)
@@ -716,8 +716,8 @@ local function JEWJRTX_fake_script() -- TextButton_4.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(JEWJRTX_fake_script)()
-local function NFVCB_fake_script() -- dummyButton.ANIME 
+coroutine.wrap(MJAO_fake_script)()
+local function BTXL_fake_script() -- dummyButton.ANIME 
 	local script = Instance.new('LocalScript', dummyButton)
 
 	local btn = script.Parent
@@ -760,11 +760,11 @@ local function NFVCB_fake_script() -- dummyButton.ANIME
 		end
 	end)
 end
-coroutine.wrap(NFVCB_fake_script)()
-local function XMUMDF_fake_script() -- ImageLabel_2.Script 
+coroutine.wrap(BTXL_fake_script)()
+local function YGVKPHD_fake_script() -- ImageLabel_2.Script 
 	local script = Instance.new('Script', ImageLabel_2)
 
 	wait(4)
 	script.Parent:Destroy()
 end
-coroutine.wrap(XMUMDF_fake_script)()
+coroutine.wrap(YGVKPHD_fake_script)()
